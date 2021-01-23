@@ -7,21 +7,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main class="container">
     <section class="advert-section">
-      <h1>Learn to code by watching others</h1>
-      <h2>
-      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-      but understanding how developers think is invaluable. 
-      </h2>
+      <div class="advert-container">
+        <h1>Learn to code by<br> watching others</h1>
+        <p>
+        See how experienced developers solve problems in real-time.<br> Watching scripted tutorials is great, 
+        but understanding how<br> developers think is invaluable. 
+        </p>
+      </div>
     </section>
     <section class=signup-form-section>
     <div class="try-it-free">
@@ -32,10 +28,11 @@
       <input type="text" name="Last Name " placeholder="Last Name " id="form-input-Lname">  
       <input type="text" name="Email Address" placeholder="Email Address" id="form-input-Email">  
       <input type="text" name="Password" placeholder="Password" id="form-input-password">  
-      
-      <input class="signup-form-submit-btn" type="submit" value="Claim your free trial"> 
+      <div class="btn-and-terms">
+        <input class="signup-form-submit-btn" type="submit" value="Claim your free trial"> 
+        <p>By clicking the button, you are agreeing to our <a id="Terms and Services" href="http://" target="_blank" rel="noopener noreferrer">Terms and Services</a></p>
+      </div>
     </form> 
-  <h3>By clicking the button, you are agreeing to our <a id="Terms and Services" href="http://" target="_blank" rel="noopener noreferrer">Terms and Services</a></h3>
   
 </section>
 </main>

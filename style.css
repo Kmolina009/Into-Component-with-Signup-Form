@@ -64,12 +64,90 @@ body{
  background-color:var(--Primary-color-R);
  font-family: 'Poppins';
  font-size: 16px;
+ height: 100vh;
+ width: 100vw;
 }
-.contianer{
+.container{
 	display: flex;
 	flex-direction: row;
-	width: 100vw;
-	height: 100vh;
+	height: 796px;
+	width: 1440px;
+	box-sizing: border-box;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	width: 45%;
+	height: 100%;
+	margin: 5px;
+}
+/***************************** Advert *************************/
+.advert-container{
+	color: white;
+	position: absolute;
+	top:294px;
+	left:160px;
+
+}
+.advert-container h1{
+font-size: 47px;
+font-weight: 700;
+margin-bottom: 15px;
+	/* color: white; */
+}
+.advert-container h2{
+	font-size: 16px;
+}
+/***************************** Signup Form *************************/
+.signup-form-section form{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 12px;
+	height: 477px;
+	width: 542px;
+}
+.signup-form-section form input{
+	position: relative;
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid black;
+	margin-left: 41px;
+	height: 56px;
+	width: 460px;
+	margin-top: 30px;
+}
+.signup-form-section .try-it-free{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* text-align: center; */
+	position: relative;
+	background-color:var(--Accent-color-B);
+	color: white;
+	border-radius: 6px;
+	/* margin-left: 41px; */
+	margin-bottom:23px;
+	height: 61px;
+	width: 542px;
+}
+signup-form-section .btn-and-terms{
+	position: absolute;
+	top:440px;
+}
+.signup-form-section .btn-and-terms .signup-form-submit-btn{
+	color:white;
+	background-color: var(--Primary-color-G);
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 10%;
+}
+.signup-form-section .btn-and-terms p{
+	text-align: center;
+	font-size: 10px;
+	top:5px;
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
