@@ -87,7 +87,7 @@ section{
 .advert-container{
 	color: white;
 	position: absolute;
-	top:294px;
+	top:204px;
 	left:160px;
 
 }
@@ -106,7 +106,7 @@ margin-bottom: 15px;
 	flex-direction: column;
 	background-color: white;
 	border-radius: 12px;
-	height: 477px;
+	height: 500px;
 	width: 542px;
 }
 .signup-form-section form input{
@@ -144,10 +144,11 @@ signup-form-section .btn-and-terms{
 	font-weight: 600;
 	letter-spacing: 10%;
 }
-.signup-form-section .btn-and-terms p{
+.signup-form-section form .btn-and-terms p{
 	text-align: center;
 	font-size: 10px;
-	top:5px;
+	position: relative;
+	top:7px;
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
