@@ -108,47 +108,71 @@ margin-bottom: 15px;
 	border-radius: 12px;
 	height: 500px;
 	width: 542px;
+	filter: drop-shadow(0px 5px 1px #c55858);
 }
 .signup-form-section form input{
 	position: relative;
 	background-color: white;
 	border-radius: 6px;
 	border: 1px solid black;
-	margin-left: 41px;
+	margin-left: 20px;
+	margin-right: 20px;
 	height: 56px;
 	width: 460px;
 	margin-top: 30px;
+	padding-left: 32px;
 }
+/* .signup-form-section form input{
+	position: relative;
+	padding-left: 10px;
+	left:10px;
+} */
+/* .signup-form-section form input::placeholder{
+	position: relative;
+	padding-left: 10px;
+	left:10px;
+} */
 .signup-form-section .try-it-free{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* text-align: center; */
 	position: relative;
 	background-color:var(--Accent-color-B);
 	color: white;
 	border-radius: 6px;
-	/* margin-left: 41px; */
 	margin-bottom:23px;
 	height: 61px;
 	width: 542px;
+	filter: drop-shadow(0px 4px .5px #db6767);
 }
 signup-form-section .btn-and-terms{
 	position: absolute;
 	top:440px;
 }
 .signup-form-section .btn-and-terms .signup-form-submit-btn{
+	position: relative;
+	left: 20px;
 	color:white;
 	background-color: var(--Primary-color-G);
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 10%;
+	border: none;
+	filter: drop-shadow(0px 4px .5px hsl(154, 60%, 41%));
+	cursor: pointer;
+}
+.signup-form-section .btn-and-terms .signup-form-submit-btn:hover{
+	color:white;
+	background-color:hsl(154, 60%, 41%);
+	/* filter: drop-shadow(0px 4px .5px hsl(154, 60%, 41%)); */
+	
 }
 .signup-form-section form .btn-and-terms p{
 	text-align: center;
 	font-size: 10px;
 	position: relative;
 	top:7px;
+	color: hsl(246, 25%, 77%);
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
