@@ -114,7 +114,8 @@ margin-bottom: 15px;
 	position: relative;
 	background-color: white;
 	border-radius: 6px;
-	border: 1px solid black;
+	border: 1px solid #dedede;
+	color: #6E6E70;
 	margin-left: 20px;
 	margin-right: 20px;
 	height: 56px;
@@ -173,6 +174,11 @@ signup-form-section .btn-and-terms{
 	position: relative;
 	top:7px;
 	color: hsl(246, 25%, 77%);
+}
+.signup-form-section form .btn-and-terms p #Terms-and-Services{
+	text-decoration: none;
+	color: var(--Primary-color-R);
+	font-weight: 700;
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
