@@ -87,7 +87,7 @@ section{
 .advert-container{
 	color: white;
 	position: absolute;
-	top:204px;
+	top:304px;
 	left:160px;
 
 }
@@ -101,6 +101,10 @@ margin-bottom: 15px;
 	font-size: 16px;
 }
 /***************************** Signup Form *************************/
+.signup-form-section{
+	position: relative;
+	top:110px;
+}
 .signup-form-section form{
 	display: flex;
 	flex-direction: column;
@@ -180,9 +184,22 @@ signup-form-section .btn-and-terms{
 	color: var(--Primary-color-R);
 	font-weight: 700;
 }
+p.attribution{
+	font-size: 11px; 
+	text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+/***********************Error Message Styling*********************************************/
+.errorMsg{
+	font-size: 14px;
+	position: relative;
+	left:32px;
+	color:var(--Primary-color-R);
+}
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 <style>
+
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 </style> */
