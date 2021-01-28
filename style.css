@@ -192,9 +192,12 @@ p.attribution{
 /***********************Error Message Styling*********************************************/
 .errorMsg{
 	font-size: 14px;
+	font-weight: 700;
 	position: relative;
+	text-decoration-style: wavy;
+	top:5px;
 	left:32px;
-	color:var(--Primary-color-R);
+	color:#a03636;
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->

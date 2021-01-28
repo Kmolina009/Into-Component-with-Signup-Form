@@ -24,9 +24,16 @@ $(document).ready(function(){
             //Gather input values from sign-up form
             $('.input-text-field').each(function(){
                 // inputValues[$(this).attr('name')]=$(this).val();
+                console.log($(this).val())
+                //Remove any prior existing message
+                if($(this).next().hasClass('errorMsg')){
+                    console.log("Error message Deteched");
+                    console.log($(this).next());
+                    $(this).next().remove();
+                };
                 if($(this).val()==""){
-                    //append repective error message
-                    
+                    //append error message to input without user's input
+                    $('.signup-form-section form input').attr('margin-top','16px');
                     $(`<p>${$(this).attr('name')} cannot be empty</p>`).addClass('errorMsg').insertAfter($(this))
                 }
             })
