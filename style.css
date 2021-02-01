@@ -66,6 +66,7 @@ body{
  font-size: 16px;
  height: 100vh;
  width: 100vw;
+ background-image: url(./images/bg-intro-desktop.png);
 }
 .container{
 	display: flex;
@@ -198,6 +199,78 @@ p.attribution{
 	top:5px;
 	left:32px;
 	color:#a03636;
+}
+
+@media screen and (max-width:375px){
+	body{
+		height: 1004px; 	
+		width: 375px;
+		display: flex;
+		flex-flow: column;
+		justify-items: center;
+		background-image: url(./images/bg-intro-mobile.png);
+	}
+	.container{
+		height: 1004px;
+		width: 375px;
+		display: flex;
+		flex-flow: column;
+	}
+	section{
+		display: flex;
+		align-items: center;
+	}
+	.advert-section{
+		width: 100vw;
+		height: 262px;
+
+	}
+	.advert-container{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 375px;
+	height:262px;
+	top:0px;
+	left: 10px;
+	justify-content:center;
+	align-content: center;
+	align-items: center;
+	}
+	.advert-container h1{
+		font-size: 27px;
+	}
+	.advert-container p{
+		position: relative;
+		text-align: center;
+		font-size: 16px;
+	}
+	.signup-form-section{
+		position: relative;
+		top:0px;
+		height: 687px;
+		width: 375px;
+	}
+	.signup-form-section .try-it-free{
+		display: inline-block;
+		height: 65px;
+		width: 349px;
+		/* padding: 15px; */
+		text-align:center ;
+	}
+	.signup-form-section .try-it-free span::before{
+		content: "\a";
+		white-space: pre;
+	}
+	.signup-form-section #signup-form{
+		height: 500px;
+		width: 350px;
+	}
+	#signup-form input{
+		margin-top: 15px auto;
+		height: 56px;
+		width: 270px;
+	}
 }
 /* 
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
