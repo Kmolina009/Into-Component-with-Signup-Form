@@ -79,7 +79,7 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 ---
 
-  - [ ]Media-Query for mobile specification per style guide
+  - [X]Media-Query for mobile specification per style guide
   - [ ]Add Form-Height-Adjustment function for dynamic rescaling of form, when user recieves error message
   - [ ]BaseLine Password requirements users must meet.
     - [ ]Password must be at least 8 characters long
