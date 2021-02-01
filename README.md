@@ -72,3 +72,17 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
+##Notes to self
+###Task 
+
+---
+
+  - [ ]Media-Query for mobile specification per style guide
+  - [ ]Add Form-Height-Adjustment function for dynamic rescaling of form, when user recieves error message
+  - [ ]BaseLine Password requirements users must meet.
+    - [ ]Password must be at least 8 characters long
+    - [ ]Password should contain at least 1 number
+    - [ ]Password should contain at least one special character
+  - [ ]Consume Password Strength API for form's password field
