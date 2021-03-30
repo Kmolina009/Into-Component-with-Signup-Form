@@ -197,7 +197,7 @@ p.attribution{
 	color:#a03636;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:376px){
 	body{
 		height: 1004px; 	
 		width: 375px;

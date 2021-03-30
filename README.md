@@ -86,3 +86,4 @@ This challenge is completely free. Please share it with anyone who will find it 
     - [ ]Password should contain at least 1 number
     - [ ]Password should contain at least one special character
   - [ ]Consume Password Strength API for form's password field
+  - [ ]Adjust Media-Query
