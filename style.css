@@ -69,6 +69,8 @@ body{
  background-image: url(./images/bg-intro-desktop.png);
 }
 .container{
+	position: relative;
+	left: 15vw;
 	display: flex;
 	flex-direction: row;
 	height: 796px;
@@ -188,7 +190,7 @@ p.attribution{
 }
 /***********************Error Message Styling*********************************************/
 .errorMsg{
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 700;
 	position: relative;
 	text-decoration-style: wavy;
@@ -196,7 +198,24 @@ p.attribution{
 	left:32px;
 	color:#a03636;
 }
-
+/* .error-submessag{
+	font-size: 15px;
+	font-weight: 700;
+	position: relative;
+	text-decoration-style: wavy;
+	top:5px;
+	left:32px;
+	color:#a03636;
+} */
+.error-submessage li{
+	position: relative;
+	left: 2vw;
+ 	list-style:disc;
+ 	font-size: 13px;
+}
+li::marker{
+	text-indent: 0px;
+}
 @media screen and (max-width:376px){
 	body{
 		height: 1004px; 	
