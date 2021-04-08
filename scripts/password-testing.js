@@ -54,29 +54,5 @@ export function generateErrorMsg(){
     //return error message
     console.log(list)
     return list
-
-// console.log(listHead.insertAdjacentElement('afterend',list);
-
 }
 // generateErrorMsg()
- //Test Cases
-//  export let testWord1 = "Lauren!527";//-> Passes
-//  export let testWord2 = "Lauren527";//-> Lack of special character 
-//  export let testWord3 = "auren!527";//->Lack of capital letter
-//  export let testWord4 = "auren!";//-> lack of numbers,capital letters, less than for characters
-//  export let testWord5 = "auren!";//-> lack of numbers,capital letters
-//  export let testWord6 = "aur e!n";//-> lack of numbers,capital letters
-//  export let testWord7 = "L@uren527";//-> Passes
- 
- 
- //per submit, 
-    //valiate password
-        //if all checks pass, continue as is
-        // console.log(checkPasswordReqs(passwordRequirements.requirements))
-        // console.log(passwordCheck(testWord1))
-        // console.log(passwordCheck(testWord2))
-        // console.log(passwordCheck(testWord3))
-        // console.log(passwordCheck(testWord4))
-        // console.log(passwordCheck(testWord5))
-        // console.log(passwordCheck(testWord6))
-        // console.log(passwordCheck(testWord7))
